@@ -58,7 +58,7 @@ const AppDetails = () => {
 
 
     return (
-        <div>
+        <div className='px-8 box-border'>
             {/* Details  */}
             <div className='flex flex-col lg:flex-row lg:items-start justify-start gap-5 border-b pb-8   '>
                 <div>

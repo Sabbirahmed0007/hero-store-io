@@ -11,7 +11,7 @@ const InstallDetails = ({ installedApp, handleUninstall }) => {
    
 
     return (
-        <div className='flex items-center justify-between bg-white shadow p-4 rounded-lg'>
+        <div className='flex items-center justify-between bg-white shadow p-4 rounded-lg text-black'>
             <div className='flex items-center justify-center gap-3'>
                 <div>
                     <img className='w-20' src={image} alt="" />
@@ -23,12 +23,12 @@ const InstallDetails = ({ installedApp, handleUninstall }) => {
                             notation:'compact'
                         }).format(downloads)}</span></div>
                         <div className='text-orange-600 flex items-center  text-xs'><Star className='w-3' /><span>{ratingAvg}</span></div>
-                        <p className=' text-xs'>{size} MB</p>
+                        <p className='text-black text-xs'>{size} MB</p>
                     </div>
                 </div>
             </div>
             <div>
-                <button onClick={()=>handleUninstall(id)} className='flex items-center justify-center gap-1 text-sm btn bg-[#00D390] text-base-200'><Trash size={16}></Trash> Uninstall</button>
+                <button onClick={()=>handleUninstall(id)} className='flex items-center justify-center gap-1 text-sm btn bg-[#00D390] text-white'><Trash size={16}></Trash> Uninstall</button>
             </div>
         </div>
     );

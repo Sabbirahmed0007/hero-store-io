@@ -36,7 +36,7 @@ const Routes = createBrowserRouter([
                 element:<Apps></Apps>
             },
             {
-                path: '/app/:id',
+                path: '/appdetails/:id',
                 loader: async ({ params }) => {
                     const res = await axios.get('/apps.json');
                     const singleApp = res.data.find(app => app.id === parseInt(params.id) );

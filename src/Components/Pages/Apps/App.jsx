@@ -8,9 +8,9 @@ const App = ({ app }) => {
     const {id, image, title, ratingAvg, downloads } = app;
 
     return (
-        <Link to={`/app/${id}`}>
+        <Link to={`/appdetails/${id}`}>
 
-            <div className="card bg-base-100 w-64 mx-auto lg:w-full shadow-md">
+            <div className="card bg-white w-64 mx-auto lg:w-full shadow-md text-black">
                 <figure>
                     <img
                         className='h-40 rounded-md object-cover'
