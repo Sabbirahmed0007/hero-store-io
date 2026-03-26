@@ -19,6 +19,11 @@ const Routes = createBrowserRouter([
             {
                 index:true,
                 path: '/',
+                loader: async () => {
+                    const res = await axios.get('/apps.json');
+                    // console.log(res.data.slice(0,8));
+                    return res.data;
+                },
                 element:<Home></Home>
             },
             {

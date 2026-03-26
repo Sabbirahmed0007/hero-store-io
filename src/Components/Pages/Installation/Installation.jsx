@@ -81,8 +81,8 @@ const Installation = () => {
 
 
     return (
-        <div>
-            <div className='text-center p-8 box-border'>
+        <div className='px-8 box-border'>
+            <div className='text-center '>
                 <h1 className='bg-linear-to-r from-[#632EE3] to-[#9F62F2] text-transparent bg-clip-text text-4xl font-bold'>Your Installed Apps</h1>
                 <p className='text-gray-500 mt-5'>Explore All Trending Apps on the Market developed by us
                 </p>
