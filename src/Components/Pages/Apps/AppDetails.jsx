@@ -2,6 +2,7 @@ import { Download, Star } from 'lucide-react';
 import React from 'react';
 import { useLoaderData } from 'react-router';
 import reviewIcon from '../../../assets/images/review-icon.png'
+import { Bar, BarChart, ResponsiveContainer, Tooltip, XAxis, YAxis } from 'recharts';
 
 const AppDetails = () => {
 
@@ -72,8 +73,24 @@ const AppDetails = () => {
             {/*Bar chats of ratings */}
 
             <div>
-                                
+                <ResponsiveContainer height={300} className='p-5'>
+
+                <BarChart layout={'vertical'} data={barData}>
+                    <XAxis type='number' tickFormatter={(v) =>
+                        new Intl.NumberFormat("en-us", {
+                        notation:'compact'
+                        }).format(v)} dataKey={"count"} />
+                    <YAxis dataKey={'name'} type='category' />
+                        <Bar dataKey="count"
+                            fill="#FF8811" 
+                            radius={[0, 10, 10, 0]} ></Bar>
+                        <Tooltip></Tooltip>
+                </BarChart>       
+                </ResponsiveContainer>
             </div>
+
+
+            
 
 
         </div>
