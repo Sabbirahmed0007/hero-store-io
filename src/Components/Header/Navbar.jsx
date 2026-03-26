@@ -78,7 +78,7 @@ const Navbar = () => {
 
 
                     <div className='hidden lg:flex'>
-                        <Link className='btn bg-linear-to-r from-[#632EE3] to-[#9F62F2] text-white'><FaGithub size={24} /><span>Contribute</span></Link>
+                        <Link to={'https://github.com/Sabbirahmed0007'} className='btn bg-linear-to-r from-[#632EE3] to-[#9F62F2] text-white'><FaGithub size={24} /><span>Contribute</span></Link>
                     </div>
 
 
