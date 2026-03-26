@@ -2,6 +2,7 @@ import { Search } from 'lucide-react';
 import React, { useState } from 'react';
 import { useLoaderData } from 'react-router';
 import App from './App';
+import AppsNotFound from '../AppsNotFound/AppsNotFound';
 
 const Apps = () => {
 
@@ -32,7 +33,7 @@ const Apps = () => {
                 <p className='text-gray-500 mt-5'>Explore All Apps on the Market developed by us. We code for Millions</p>
             </div>
             <div className='flex flex-col-reverse lg:flex-row items-center justify-between mt-10 mb-5 gap-8'>
-                <h1 className='text-2xl font-bold'>{apps.length} Apps Found</h1>
+                <h1 className='text-2xl font-bold'>{allApps.length} Apps Found</h1>
                 <div>
                     {/* Search bar  */}
                     <div className="w-72 max-w-md mx-auto">
@@ -55,9 +56,14 @@ const Apps = () => {
                 </div>
             </div>
             {/* Apps */}
-            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 items-center justify-center gap-6'>
+            <div>
+                {
+                    allApps.length ===0? <AppsNotFound></AppsNotFound>:<div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 items-center justify-center gap-6'>
                 {allApps.map(app=><App key={app.id} app={app}></App>)}
             </div>
+                }
+            </div>
+            
         </div>
     );
 };

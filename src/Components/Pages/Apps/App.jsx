@@ -1,13 +1,14 @@
 import { Download } from 'lucide-react';
 import React from 'react';
 import { FaStar } from 'react-icons/fa6';
+import { Link } from 'react-router';
 
 const App = ({ app }) => {
     
-    const { image, title, ratingAvg, downloads } = app;
+    const {id, image, title, ratingAvg, downloads } = app;
 
     return (
-        <div>
+        <Link to={`/app/${id}`}>
 
             <div className="card bg-base-100 w-64 mx-auto lg:w-full shadow-sm">
                 <figure>
@@ -29,7 +30,7 @@ const App = ({ app }) => {
                 </div>
             </div>
             
-        </div>
+        </Link>
     );
 };
 

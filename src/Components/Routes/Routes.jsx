@@ -7,6 +7,7 @@ import Installation from '../Pages/Installation/Installation';
 import Apps from '../Pages/Apps/Apps';
 import Errorpage from '../Pages/Errorpage/Errorpage';
 import axios from 'axios';
+import AppDetails from '../Pages/Apps/AppDetails';
 
 
 const Routes = createBrowserRouter([
@@ -23,12 +24,22 @@ const Routes = createBrowserRouter([
             {
                 path: '/apps',
                 loader: async () => {
-                    
                     const res = await axios.get('/apps.json');
-                    console.log(res.data);
+                    // console.log(res.data);
                     return res.data;
                 },
                 element:<Apps></Apps>
+            },
+            {
+                path: '/app/:id',
+                loader: async ({ params }) => {
+                    const res = await axios.get('/apps.json');
+                    const singleApp = res.data.find(app => app.id === parseInt(params.id) );
+                    // console.log(singleApp); 
+                    return singleApp;
+                },
+                element: <AppDetails></AppDetails>,
+                
             },
             {
                 path: '/installation',
