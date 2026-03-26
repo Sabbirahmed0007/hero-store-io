@@ -2,6 +2,10 @@ import { useEffect, useState } from 'react';
 import { getApps, removeApp } from '../../Utility/LocalStorage';
 import { useLoaderData } from 'react-router';
 import InstallDetails from './InstallDetails';
+import { Confirm } from 'notiflix/build/notiflix-confirm-aio';
+import { toast } from 'react-toastify';
+import AppsNotFound from '../AppsNotFound/AppsNotFound';
+// import {toast} from 'react-hot-toast';
 
 const Installation = () => {
 
@@ -49,12 +53,25 @@ const Installation = () => {
     const handleUninstall = (id) => {
         console.log('Deleted');
 
+        Confirm.show(
+            'Are You sure',
+            'Do you want to uninstall?',
+            'Yes',
+            'No',
+            () => {
+              
+                removeApp(id);
+                toast.success("App has been Uninstalled successfully")
+                // toast.success("App has been Uninstalled successfully");
+                const remainedApps = showInstalledApps.filter(app => app.id !== id);
+        
+                setShowInstalledApps(remainedApps)
 
-        removeApp(id);
+            },
+            
+        );
 
-        const remainedApps = showInstalledApps.filter(app => app.id !== id);
 
-        setShowInstalledApps(remainedApps)
     }
 
 
@@ -65,7 +82,7 @@ const Installation = () => {
 
     return (
         <div>
-            <div className='text-center'>
+            <div className='text-center p-8 box-border'>
                 <h1 className='bg-linear-to-r from-[#632EE3] to-[#9F62F2] text-transparent bg-clip-text text-4xl font-bold'>Your Installed Apps</h1>
                 <p className='text-gray-500 mt-5'>Explore All Trending Apps on the Market developed by us
                 </p>
@@ -85,7 +102,7 @@ const Installation = () => {
             </div>
 
             <div className='space-y-8'>
-                {showInstalledApps.map(installedApp => <InstallDetails key={installedApp.id} installedApp={installedApp} handleUninstall={handleUninstall}></InstallDetails>)}
+                {showInstalledApps.length===0?<AppsNotFound></AppsNotFound>:showInstalledApps.map(installedApp => <InstallDetails key={installedApp.id} installedApp={installedApp} handleUninstall={handleUninstall}></InstallDetails>)}
             </div>
         </div>
     );

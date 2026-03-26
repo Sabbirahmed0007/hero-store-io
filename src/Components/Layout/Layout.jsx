@@ -13,9 +13,9 @@ const Layout = () => {
     return (
         <div className='max-w-7xl mx-auto space-y-16'>
             <Navbar></Navbar>
-            <div className='px-6'>
-                <Outlet></Outlet>
-            </div>
+
+            <Outlet></Outlet>
+
             <Footer></Footer>
         </div>
     );

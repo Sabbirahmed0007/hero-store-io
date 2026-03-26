@@ -27,7 +27,7 @@ const Apps = () => {
     }
 
     return (
-        <div >
+        <div className='p-8 box-border'>
             <div className='text-center'>
                 <h1 className='bg-linear-to-r from-[#632EE3] to-[#9F62F2] text-transparent bg-clip-text text-4xl font-bold'>Our All Applications</h1>
                 <p className='text-gray-500 mt-5'>Explore All Apps on the Market developed by us. We code for Millions</p>

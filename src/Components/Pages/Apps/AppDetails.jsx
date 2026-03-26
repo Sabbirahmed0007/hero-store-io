@@ -3,7 +3,9 @@ import React, { useState } from 'react';
 import { useLoaderData } from 'react-router';
 import reviewIcon from '../../../assets/images/review-icon.png'
 import { Bar, BarChart, ResponsiveContainer, Tooltip, XAxis, YAxis } from 'recharts';
-import { addApps } from '../../Utility/LocalStorage';
+import { addApps, getApps } from '../../Utility/LocalStorage';
+import { toast } from 'react-toastify';
+import { Confirm } from 'notiflix';
 
 const AppDetails = () => {
 
@@ -17,8 +19,31 @@ const AppDetails = () => {
 
 
     const handleInstall = (id) => {
-        setInstalled(true)
-        addApps(id)
+        Confirm.show(
+            'Are You sure',
+            'Do you want to install?',
+            'Yes',
+            'No',
+            () => {
+
+                setInstalled(true)
+
+                const getInstalledApps = getApps();
+                const isExisting = getInstalledApps.includes(id);
+                if (!isExisting) {
+                    addApps(id)
+                    
+                    toast.success("App has been installed successfully")
+                } else {
+                    toast.error("This app Already Installed")
+                    
+                }
+                
+                
+
+            },
+
+        );
 
 
     }
@@ -76,6 +101,8 @@ const AppDetails = () => {
 
                         </div>
                     </div>
+
+                    {/* install button */}
                     <div className='text-center lg:text-left'>
                         <button onClick={()=>handleInstall(id)} disabled={installed? true:false} className='btn btn-success text-white'>{
                           installed? "Installed":`Install Now (${size}MB)`

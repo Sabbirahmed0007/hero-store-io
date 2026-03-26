@@ -16,7 +16,7 @@ const Banner = () => {
                     <Link to={'https://www.apple.com/app-store/'} className='btn'><img src={ appStore} className='w-6' alt="" /> <span>App Store</span></Link>
                 </div>
             </div>
-            <div className='my-5 lg:w-3/4 mx-auto'>
+            <div className='mt-5 lg:w-3/4 mx-auto'>
                 <img src={hero} alt="" />
             </div>
         </div>
