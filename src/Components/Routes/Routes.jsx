@@ -6,6 +6,7 @@ import Home from '../Pages/Home/Home';
 import Installation from '../Pages/Installation/Installation';
 import Apps from '../Pages/Apps/Apps';
 import Errorpage from '../Pages/Errorpage/Errorpage';
+import axios from 'axios';
 
 
 const Routes = createBrowserRouter([
@@ -21,6 +22,12 @@ const Routes = createBrowserRouter([
             },
             {
                 path: '/apps',
+                loader: async () => {
+                    
+                    const res = await axios.get('/apps.json');
+                    console.log(res.data);
+                    return res.data;
+                },
                 element:<Apps></Apps>
             },
             {
