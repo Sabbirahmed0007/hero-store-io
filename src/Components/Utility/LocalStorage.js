@@ -45,7 +45,7 @@ const removeApp = (id) => {
     
     const getStoredApps = getApps();
 
-    const remainedapps = getStoredApps.filter(app => app.id !== id);
+    const remainedapps = getStoredApps.filter(appId => appId !== id);
 
     saveApps(remainedapps);
 }
