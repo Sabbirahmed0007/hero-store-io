@@ -6,7 +6,7 @@ import { FaLinkedinIn, FaXTwitter, FaYoutube } from "react-icons/fa6";
 
 const Footer = () => {
     return (
-        <div className='bg-base-300 py-10'>
+        <div className='bg-[#001931] pt-10 text-white'>
 
             <footer className='px-6 grid grid-cols-1 lg:grid-cols-4 items-start gap-8 pb-6'>
                 {/* Footer logo and desc */}
@@ -23,20 +23,20 @@ const Footer = () => {
                     <h1 className=' text-lg font-bold pb-3'>Quick links</h1>
                     <div className='flex flex-col items-start justify-center gap-1 text-sm'>
 
-                        <Link className='text-gray-500 hover:text-base-content' to={'/'}>Home</Link>
-                        <Link className='text-gray-500 hover:text-base-content' to={'/apps'}>Apps</Link>
-                        <Link className='text-gray-500 hover:text-base-content' to={'/installation'}>Installation</Link>
-                        <Link className='text-gray-500 hover:text-base-content' to={'/about'}>About Us</Link>
+                        <Link className='text-gray-500 hover:text-white' to={'/'}>Home</Link>
+                        <Link className='text-gray-500 hover:text-white' to={'/apps'}>Apps</Link>
+                        <Link className='text-gray-500 hover:text-white' to={'/installation'}>Installation</Link>
+                        <Link className='text-gray-500 hover:text-white' to={'/about'}>About Us</Link>
                     </div>
                 </div>
                 <div >
                     <h1 className=' text-lg font-bold pb-3'>Quick links</h1>
                     <div className='flex flex-col items-start justify-center gap-1 text-sm'>
 
-                        <Link className='text-gray-500 hover:text-base-content' to={'/'}>Home</Link>
-                        <Link className='text-gray-500 hover:text-base-content' to={'/apps'}>Apps</Link>
-                        <Link className='text-gray-500 hover:text-base-content' to={'/installation'}>Installation</Link>
-                        <Link className='text-gray-500 hover:text-base-content' to={'/about'}>About Us</Link>
+                        <Link className='text-gray-500 hover:text-white' to={'/'}>Home</Link>
+                        <Link className='text-gray-500 hover:text-white' to={'/apps'}>Apps</Link>
+                        <Link className='text-gray-500 hover:text-white' to={'/installation'}>Installation</Link>
+                        <Link className='text-gray-500 hover:text-white' to={'/about'}>About Us</Link>
                     </div>
                 </div>
                 <div >
@@ -51,7 +51,7 @@ const Footer = () => {
                 </div>
 
             </footer>
-            <footer className="footer sm:footer-horizontal footer-center bg-base-300 py-6 border-t">
+            <footer className="footer sm:footer-horizontal footer-center bg-[#001931] text-white py-6 border-t">
                 <aside>
                     <p>Copyright © {new Date().getFullYear()} - All right reserved by <Link to={'/'} className='font-bold'>Hero.IO</Link></p>
                 </aside>

@@ -84,7 +84,7 @@ const Navbar = () => {
 
                     <div className='dropdown lg:hidden'>
 
-                        <div tabIndex={0} role='button'>
+                        <div className='btn btn-ghost' tabIndex={0} role='button'>
                             <Menu></Menu>
                         </div>
 

@@ -1,0 +1,365 @@
+[
+  {
+    "id": 1,
+    "image": "https://i.ibb.co/3s9hQ3G/whatsapp.png",
+    "title": "WhatsApp",
+    "companyName": "Meta Platforms",
+    "description": "WhatsApp is a globally popular messaging application that enables users to communicate quickly and securely across devices. It supports text messages, voice notes, video calls, group chats, and media sharing including photos, documents, and locations. The platform uses end-to-end encryption to ensure privacy and secure conversations. Its simple interface makes it easy for users of all ages to navigate without confusion. WhatsApp also includes features like status updates, broadcast messaging, and multi-device support, allowing users to stay connected from different devices simultaneously. Businesses use WhatsApp Business to interact with customers efficiently. The app is optimized for performance and works well even on slower networks, making it highly accessible worldwide. With regular updates and a focus on usability and privacy, WhatsApp remains a top communication tool for billions of users.",
+    "size": 80,
+    "reviews": 20000000,
+    "ratingAvg": 4.3,
+    "downloads": 5000000000,
+    "ratings": [
+      { "name": "1 star", "count": 1000000 },
+      { "name": "2 star", "count": 800000 },
+      { "name": "3 star", "count": 1500000 },
+      { "name": "4 star", "count": 6000000 },
+      { "name": "5 star", "count": 10700000 }
+    ]
+  },
+  {
+    "id": 2,
+    "image": "https://i.ibb.co/0n0dVxT/facebook.png",
+    "title": "Facebook",
+    "companyName": "Meta Platforms",
+    "description": "Facebook is one of the largest social networking platforms, allowing users to connect with friends, family, and communities worldwide. It enables sharing posts, photos, videos, and stories while offering features like groups, pages, and marketplace. Users can discover content based on their interests through an algorithm-driven news feed. Facebook also supports live streaming, event creation, and integrated messaging through Messenger. Businesses and creators use the platform to promote products and engage with audiences globally. Privacy settings allow users to control who sees their content. The platform continuously evolves with features like reels and AI-based recommendations to enhance user engagement. Facebook is accessible across devices and provides a smooth, interactive experience for users of all backgrounds.",
+    "size": 95,
+    "reviews": 18000000,
+    "ratingAvg": 4.1,
+    "downloads": 5000000000,
+    "ratings": [
+      { "name": "1 star", "count": 1500000 },
+      { "name": "2 star", "count": 1200000 },
+      { "name": "3 star", "count": 2000000 },
+      { "name": "4 star", "count": 5000000 },
+      { "name": "5 star", "count": 8300000 }
+    ]
+  },
+  {
+    "id": 3,
+    "image": "https://i.ibb.co/JdF7V3x/instagram.png",
+    "title": "Instagram",
+    "companyName": "Meta Platforms",
+    "description": "Instagram is a visual social media platform focused on sharing photos and videos creatively. It offers features such as posts, stories, reels, and live streaming, making it highly engaging for users and creators. The app allows users to follow accounts, like, comment, and share content with others. Instagram’s personalized feed ensures that users discover content tailored to their interests. Direct messaging enables private communication, while tools for businesses and creators provide analytics, advertising, and monetization options. With built-in filters and editing tools, users can enhance their content easily. The platform is widely used for branding, entertainment, and social interaction, maintaining its position as a leading app globally.",
+    "size": 85,
+    "reviews": 17000000,
+    "ratingAvg": 4.4,
+    "downloads": 5000000000,
+    "ratings": [
+      { "name": "1 star", "count": 900000 },
+      { "name": "2 star", "count": 700000 },
+      { "name": "3 star", "count": 1500000 },
+      { "name": "4 star", "count": 5500000 },
+      { "name": "5 star", "count": 9400000 }
+    ]
+  },
+  {
+    "id": 4,
+    "image": "https://i.ibb.co/xhY9w5X/youtube.png",
+    "title": "YouTube",
+    "companyName": "Google LLC",
+    "description": "YouTube is the world’s largest video-sharing platform, offering content ranging from entertainment and education to tutorials and live streams. Users can watch, upload, and share videos while subscribing to channels they enjoy. The platform provides personalized recommendations based on user behavior, improving content discovery. Features like playlists, offline downloads, and premium subscriptions enhance the viewing experience. Creators can monetize content through ads and memberships. YouTube is optimized for all devices, ensuring seamless streaming across smartphones, tablets, and desktops. With billions of users, it remains a major source of information and entertainment globally.",
+    "size": 120,
+    "reviews": 25000000,
+    "ratingAvg": 4.5,
+    "downloads": 10000000000,
+    "ratings": [
+      { "name": "1 star", "count": 1200000 },
+      { "name": "2 star", "count": 900000 },
+      { "name": "3 star", "count": 2000000 },
+      { "name": "4 star", "count": 7000000 },
+      { "name": "5 star", "count": 13800000 }
+    ]
+  },
+
+  {
+    "id": 5,
+    "image": "https://i.ibb.co/t2sHqvC/tiktok.png",
+    "title": "TikTok",
+    "companyName": "ByteDance",
+    "description": "TikTok is a short-form video platform where users create and share engaging content using music, effects, and filters. Its algorithm delivers personalized content, making it highly addictive and entertaining. Users can follow creators, participate in trends, and interact through comments and likes. The app offers powerful editing tools, allowing high-quality content creation directly within the platform. TikTok has influenced global trends, music, and digital culture significantly. It is widely used for entertainment, education, and branding, providing opportunities for creators to grow and monetize their audience.",
+    "size": 110,
+    "reviews": 22000000,
+    "ratingAvg": 4.4,
+    "downloads": 10000000000,
+    "ratings": [
+      { "name": "1 star", "count": 1300000 },
+      { "name": "2 star", "count": 900000 },
+      { "name": "3 star", "count": 1800000 },
+      { "name": "4 star", "count": 6500000 },
+      { "name": "5 star", "count": 11500000 }
+    ]
+  },
+
+  {
+    "id": 6,
+    "image": "https://i.ibb.co/spotify.png",
+    "title": "Spotify",
+    "companyName": "Spotify AB",
+    "description": "Spotify is a leading music streaming platform that provides access to millions of songs, podcasts, and playlists. Users can discover new music through personalized recommendations and curated playlists. The app allows offline listening, playlist creation, and social sharing features. With high-quality audio streaming and seamless performance, Spotify offers a premium listening experience. It supports both free and subscription-based plans, catering to different user needs. The platform continuously updates with new content, making it a top choice for music lovers worldwide.",
+    "size": 75,
+    "reviews": 12000000,
+    "ratingAvg": 4.5,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 400000 },
+      { "name": "2 star", "count": 600000 },
+      { "name": "3 star", "count": 1000000 },
+      { "name": "4 star", "count": 4000000 },
+      { "name": "5 star", "count": 6000000 }
+    ]
+  },
+
+  {
+    "id": 7,
+    "image": "https://i.ibb.co/twitter.png",
+    "title": "X",
+    "companyName": "X Corp",
+    "description": "X, formerly known as Twitter, is a real-time social media platform focused on short messages called posts. Users can share updates, opinions, news, and media content with a global audience. It allows following accounts, trending topics, and participating in discussions through replies and reposts. The platform is widely used for breaking news, entertainment, and public conversations. Features like spaces, live audio, and direct messaging enhance user engagement. X also supports creators and businesses with analytics and promotional tools. Its fast-paced environment makes it ideal for staying updated with global events instantly.",
+    "size": 70,
+    "reviews": 10000000,
+    "ratingAvg": 4.2,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 500000 },
+      { "name": "2 star", "count": 600000 },
+      { "name": "3 star", "count": 900000 },
+      { "name": "4 star", "count": 3000000 },
+      { "name": "5 star", "count": 5000000 }
+    ]
+  },
+  {
+    "id": 8,
+    "image": "https://i.ibb.co/netflix.png",
+    "title": "Netflix",
+    "companyName": "Netflix Inc.",
+    "description": "Netflix is a leading streaming platform offering a wide variety of movies, TV shows, and original content. Users can watch content on-demand without advertisements through subscription plans. It provides personalized recommendations based on viewing history, ensuring relevant content discovery. Netflix supports multiple profiles, offline downloads, and high-definition streaming. Its original productions have gained global recognition for quality storytelling. The platform is accessible across devices, providing seamless viewing experiences. With constant updates and a growing library, Netflix remains a top choice for entertainment worldwide.",
+    "size": 150,
+    "reviews": 15000000,
+    "ratingAvg": 4.4,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 600000 },
+      { "name": "2 star", "count": 700000 },
+      { "name": "3 star", "count": 1200000 },
+      { "name": "4 star", "count": 5000000 },
+      { "name": "5 star", "count": 7500000 }
+    ]
+  },
+  {
+    "id": 9,
+    "image": "https://i.ibb.co/amazon.png",
+    "title": "Amazon Shopping",
+    "companyName": "Amazon",
+    "description": "Amazon Shopping is a comprehensive e-commerce platform that allows users to browse and purchase millions of products across various categories. It offers fast delivery options, secure payments, and personalized recommendations. Users can read reviews, compare products, and track orders easily. The app supports features like wishlists, deals, and one-click purchasing for convenience. Amazon also integrates services like Prime for additional benefits including fast shipping and exclusive content. Its user-friendly interface ensures smooth navigation, making online shopping efficient and reliable.",
+    "size": 100,
+    "reviews": 14000000,
+    "ratingAvg": 4.3,
+    "downloads": 5000000000,
+    "ratings": [
+      { "name": "1 star", "count": 700000 },
+      { "name": "2 star", "count": 800000 },
+      { "name": "3 star", "count": 1300000 },
+      { "name": "4 star", "count": 4800000 },
+      { "name": "5 star", "count": 6400000 }
+    ]
+  },
+  {
+    "id": 10,
+    "image": "https://i.ibb.co/telegram.png",
+    "title": "Telegram",
+    "companyName": "Telegram FZ-LLC",
+    "description": "Telegram is a cloud-based messaging app known for speed, security, and flexibility. It supports large group chats, channels, and file sharing with high size limits. Users can send messages, media, and documents while enjoying features like bots, stickers, and voice chats. Telegram emphasizes privacy with optional end-to-end encrypted chats. Its cloud storage allows access from multiple devices seamlessly. The platform is widely used for communities, content sharing, and business communication. With continuous updates and powerful features, Telegram remains a strong alternative to traditional messaging apps.",
+    "size": 65,
+    "reviews": 9000000,
+    "ratingAvg": 4.5,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 300000 },
+      { "name": "2 star", "count": 400000 },
+      { "name": "3 star", "count": 700000 },
+      { "name": "4 star", "count": 3000000 },
+      { "name": "5 star", "count": 4600000 }
+    ]
+  },
+  {
+    "id": 11,
+    "image": "https://i.ibb.co/googlemaps.png",
+    "title": "Google Maps",
+    "companyName": "Google LLC",
+    "description": "Google Maps is a powerful navigation and mapping application that helps users find locations, directions, and real-time traffic updates. It offers detailed maps, satellite imagery, and street views for better navigation. Users can explore nearby restaurants, businesses, and landmarks with reviews and ratings. The app provides route options for driving, walking, cycling, and public transport. Offline maps allow navigation without internet access. Google Maps is widely used for travel, commuting, and discovering new places efficiently.",
+    "size": 120,
+    "reviews": 20000000,
+    "ratingAvg": 4.6,
+    "downloads": 10000000000,
+    "ratings": [
+      { "name": "1 star", "count": 800000 },
+      { "name": "2 star", "count": 600000 },
+      { "name": "3 star", "count": 1000000 },
+      { "name": "4 star", "count": 6000000 },
+      { "name": "5 star", "count": 11600000 }
+    ]
+  },
+  {
+    "id": 12,
+    "image": "https://i.ibb.co/uber.png",
+    "title": "Uber",
+    "companyName": "Uber Technologies",
+    "description": "Uber is a ride-hailing app that connects riders with drivers for convenient transportation. Users can book rides, track drivers in real-time, and make cashless payments through the app. It offers multiple ride options based on budget and comfort preferences. Uber also includes food delivery services through Uber Eats. Safety features such as ride tracking and driver details enhance user confidence. The app is widely used in urban areas for daily commuting and travel needs.",
+    "size": 90,
+    "reviews": 11000000,
+    "ratingAvg": 4.2,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 600000 },
+      { "name": "2 star", "count": 700000 },
+      { "name": "3 star", "count": 900000 },
+      { "name": "4 star", "count": 3500000 },
+      { "name": "5 star", "count": 5300000 }
+    ]
+  },
+  {
+    "id": 13,
+    "image": "https://i.ibb.co/zoom.png",
+    "title": "Zoom",
+    "companyName": "Zoom Video Communications",
+    "description": "Zoom is a video conferencing application used for meetings, webinars, and online collaboration. It supports high-quality video and audio calls with features like screen sharing, chat, and recording. Zoom is widely used in business, education, and remote work environments. It allows hosting large meetings and provides tools for interactive communication. The app is easy to use and works across devices, making virtual communication accessible and efficient.",
+    "size": 85,
+    "reviews": 8000000,
+    "ratingAvg": 4.3,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 400000 },
+      { "name": "2 star", "count": 500000 },
+      { "name": "3 star", "count": 800000 },
+      { "name": "4 star", "count": 2500000 },
+      { "name": "5 star", "count": 3800000 }
+    ]
+  },
+  {
+    "id": 14,
+    "image": "https://i.ibb.co/snapchat.png",
+    "title": "Snapchat",
+    "companyName": "Snap Inc.",
+    "description": "Snapchat is a multimedia messaging app known for disappearing messages and creative filters. Users can send snaps, share stories, and explore content from friends and creators. Augmented reality lenses and filters enhance user interaction and creativity. Snapchat also includes chat features and discover sections for news and entertainment. It is widely popular among younger audiences for its unique communication style.",
+    "size": 95,
+    "reviews": 9000000,
+    "ratingAvg": 4.1,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 700000 },
+      { "name": "2 star", "count": 600000 },
+      { "name": "3 star", "count": 900000 },
+      { "name": "4 star", "count": 3000000 },
+      { "name": "5 star", "count": 3800000 }
+    ]
+  },
+  {
+    "id": 15,
+    "image": "https://i.ibb.co/linkedin.png",
+    "title": "LinkedIn",
+    "companyName": "Microsoft",
+    "description": "LinkedIn is a professional networking platform that connects individuals and businesses worldwide. Users can create profiles, showcase skills, and connect with professionals. It offers job listings, company pages, and industry news. LinkedIn helps users build careers, expand networks, and discover opportunities. The platform also supports content sharing and learning resources for professional growth.",
+    "size": 75,
+    "reviews": 7000000,
+    "ratingAvg": 4.2,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 300000 },
+      { "name": "2 star", "count": 400000 },
+      { "name": "3 star", "count": 700000 },
+      { "name": "4 star", "count": 2500000 },
+      { "name": "5 star", "count": 3100000 }
+    ]
+  },
+  {
+    "id": 16,
+    "image": "https://i.ibb.co/pinterest.png",
+    "title": "Pinterest",
+    "companyName": "Pinterest Inc.",
+    "description": "Pinterest is a visual discovery platform where users can find ideas for inspiration, including fashion, home decor, and recipes. Users can save and organize content into boards for future reference. The app provides personalized recommendations based on interests. Pinterest is widely used for creative inspiration and planning projects. Its clean interface makes browsing and saving ideas simple and engaging.",
+    "size": 60,
+    "reviews": 6000000,
+    "ratingAvg": 4.4,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 200000 },
+      { "name": "2 star", "count": 300000 },
+      { "name": "3 star", "count": 500000 },
+      { "name": "4 star", "count": 2000000 },
+      { "name": "5 star", "count": 3000000 }
+    ]
+  },
+  {
+    "id": 17,
+    "image": "https://i.ibb.co/discord.png",
+    "title": "Discord",
+    "companyName": "Discord Inc.",
+    "description": "Discord is a communication platform designed for communities, offering voice, video, and text chat features. Users can join servers based on interests, including gaming, education, and hobbies. It supports real-time communication and collaboration with advanced features like screen sharing and bots. Discord is popular among gamers and online communities for its flexibility and user-friendly interface.",
+    "size": 70,
+    "reviews": 5000000,
+    "ratingAvg": 4.5,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 200000 },
+      { "name": "2 star", "count": 300000 },
+      { "name": "3 star", "count": 400000 },
+      { "name": "4 star", "count": 1500000 },
+      { "name": "5 star", "count": 2600000 }
+    ]
+  },
+  {
+    "id": 18,
+    "image": "https://i.ibb.co/airbnb.png",
+    "title": "Airbnb",
+    "companyName": "Airbnb Inc.",
+    "description": "Airbnb is a travel platform that allows users to book unique accommodations and experiences worldwide. It offers a wide range of options including homes, apartments, and hotels. Users can browse listings, read reviews, and communicate with hosts directly. Airbnb provides secure payments and flexible booking options. It is widely used by travelers seeking affordable and personalized stays.",
+    "size": 85,
+    "reviews": 4000000,
+    "ratingAvg": 4.4,
+    "downloads": 100000000,
+    "ratings": [
+      { "name": "1 star", "count": 150000 },
+      { "name": "2 star", "count": 200000 },
+      { "name": "3 star", "count": 300000 },
+      { "name": "4 star", "count": 1200000 },
+      { "name": "5 star", "count": 2150000 }
+    ]
+  },
+  {
+    "id": 19,
+    "image": "https://i.ibb.co/google-drive.png",
+    "title": "Google Drive",
+    "companyName": "Google LLC",
+    "description": "Google Drive is a cloud storage service that allows users to store, access, and share files securely. It supports documents, photos, videos, and more, with integration across Google services. Users can collaborate in real time using tools like Docs and Sheets. Drive offers synchronization across devices and offline access. It is widely used for personal and professional file management.",
+    "size": 65,
+    "reviews": 10000000,
+    "ratingAvg": 4.6,
+    "downloads": 5000000000,
+    "ratings": [
+      { "name": "1 star", "count": 300000 },
+      { "name": "2 star", "count": 400000 },
+      { "name": "3 star", "count": 800000 },
+      { "name": "4 star", "count": 3500000 },
+      { "name": "5 star", "count": 5000000 }
+    ]
+  },
+  {
+    "id": 20,
+    "image": "https://i.ibb.co/google-photos.png",
+    "title": "Google Photos",
+    "companyName": "Google LLC",
+    "description": "Google Photos is a photo and video storage service that offers backup, organization, and sharing features. It uses AI to organize media by people, places, and objects automatically. Users can edit photos, create albums, and share memories easily. The app provides cloud storage and synchronization across devices. Google Photos ensures safe storage and quick access to media anytime.",
+    "size": 70,
+    "reviews": 9000000,
+    "ratingAvg": 4.5,
+    "downloads": 5000000000,
+    "ratings": [
+      { "name": "1 star", "count": 250000 },
+      { "name": "2 star", "count": 300000 },
+      { "name": "3 star", "count": 600000 },
+      { "name": "4 star", "count": 3000000 },
+      { "name": "5 star", "count": 4850000 }
+    ]
+  }
+]
