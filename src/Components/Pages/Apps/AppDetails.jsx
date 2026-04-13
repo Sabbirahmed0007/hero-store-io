@@ -1,5 +1,5 @@
 import { Download, Star } from 'lucide-react';
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { useLoaderData } from 'react-router';
 import reviewIcon from '../../../assets/images/review-icon.png'
 import { Bar, BarChart, ResponsiveContainer, Tooltip, XAxis, YAxis } from 'recharts';
@@ -17,6 +17,21 @@ const AppDetails = () => {
 
     const { id, image, title, companyName, description, size, reviews, ratingAvg, downloads, ratings } = app;
 
+    useEffect(() => {
+
+        const allApps = getApps();
+        const installedApp = allApps.find(app => app.id === id);
+        console.log(installedApp);
+
+        if (installedApp) {
+            setInstalled(installedApp.isInstalled);
+           
+        } else {
+            setInstalled(false);
+       }  
+        
+    },[id])
+
 
     const handleInstall = (id) => {
         Confirm.show(
@@ -26,25 +41,26 @@ const AppDetails = () => {
             'No',
             () => {
 
-                setInstalled(true)
-
                 const getInstalledApps = getApps();
-                const isExisting = getInstalledApps.includes(id);
+                
+
+                const getInstalledIds = getInstalledApps.map(theApp => theApp.id);
+                
+                const isExisting = getInstalledIds.includes(id);
+                // console.log(isExisting);
+                
                 if (!isExisting) {
-                    addApps(id)
+                    addApps({...app, isInstalled:true})
                     
                     toast.success("App has been installed successfully")
                 } else {
                     toast.error("This app Already Installed")
                     
                 }
-                
-                
-
+                setInstalled(true);
             },
 
         );
-
 
     }
 
@@ -101,10 +117,10 @@ const AppDetails = () => {
 
                         </div>
                     </div>
-
-                    {/* install button */}
                     <div className='text-center lg:text-left'>
-                        <button onClick={()=>handleInstall(id)} disabled={installed? true:false} className='btn btn-success text-white'>{
+                        <button onClick={() => handleInstall(id)}
+                        disabled={installed}    
+                        className='btn btn-success text-white'>{
                           installed? "Installed":`Install Now (${size}MB)`
                         } </button>
                     </div>
